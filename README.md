@@ -27,7 +27,7 @@ The code has been verified to work with PyTorch v2.0.0 + CUDA 11.8 and Python 3.
 
 ### Package Dependencies
 
-```python
+```
 # 1.Create a new Conda environment with Python 3.8 then activate it
 conda create -n cmnfnet python=3.8
 conda activate cmnfnet
