@@ -6,7 +6,7 @@ Mingzhu Xu, Sen Wang, Yupeng Hu, Haoyu Tang, Runmin Cong, Liqiang Nie, IEEE Tran
 
 ## Structure
 
-![image-20251122164015033](C:\Users\21599\AppData\Roaming\Typora\typora-user-images\image-20251122164015033.png)
+![image-20251122164015033](./Fig/CMNFNet.png)
 
 ## Introduction
 
