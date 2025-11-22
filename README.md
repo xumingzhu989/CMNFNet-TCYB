@@ -49,7 +49,7 @@ python mainNest.py
 
 ## Saliency maps
 
-We provide saliency maps of our ACCoNet (VGG_backbone and ResNet_backbone on ORSSD, EORSSD, and additional ORSI-4199 datasets.
+We provide saliency maps of our CMNFNet （VGG_backbone and ResNet_backbone） on ORSSD, EORSSD, and additional ORSI-4199 datasets.
 
 ## Citation
 
