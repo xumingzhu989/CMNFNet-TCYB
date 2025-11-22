@@ -51,8 +51,6 @@ python mainNest.py
 
 We provide saliency maps of our ACCoNet (VGG_backbone and ResNet_backbone on ORSSD, EORSSD, and additional ORSI-4199 datasets.
 
-Link： https://pan.baidu.com/s/1DQGp3JMOfYJFPyPMcp8pmQ （password：97ds）
-
 ## Citation
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
