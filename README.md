@@ -53,12 +53,6 @@ We provide saliency maps of our ACCoNet (VGG_backbone and ResNet_backbone on ORS
 
 Link： https://pan.baidu.com/s/1DQGp3JMOfYJFPyPMcp8pmQ （password：97ds）
 
-## Evaluation Tool
-
-You can use the evaluation tool (MATLAB version) to evaluate the above saliency maps.
-
-Link：https://github.com/MathLee/MatlabEvaluationTools
-
 ## Citation
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
