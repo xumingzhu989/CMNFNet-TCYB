@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ## Training
 
-```python
+```
 python mainNest.py
 ```
 
