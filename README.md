@@ -25,6 +25,11 @@ In this paper, we propose a novel Cross-Model Nested Fusion Network (CMNFNet), w
 
 The code has been verified to work with PyTorch v2.0.0 + CUDA 11.8 and Python 3.8.
 
+### Pretrained weight
+
+Please download the pretrained weights of resnet and vgg and place them in the specified directory: ./pretrained
+Link:
+
 ### Package Dependencies
 
 ```
@@ -50,6 +55,7 @@ python mainNest.py
 ## Saliency maps
 
 We provide saliency maps of our CMNFNet（VGG_backbone and ResNet_backbone）on ORSSD, EORSSD, and additional ORSI-4199 datasets.
+Link:https://pan.baidu.com/s/1DQGp3JMOfYJFPyPMcp8pmQ PW:97ds
 
 ## Citation
 
