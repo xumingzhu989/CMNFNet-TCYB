@@ -1,0 +1,53 @@
+DATA:
+  data_root: F:/WORKs_SDU/datasets/
+  train_list: F:/WORKs_SDU/datasets/ORSSD_train4800_list.txt
+#  train_list: F:/WORKs_SDU/datasets/EORSSD_train11200_list.txt
+#  train_list: F:/WORKs_SDU/datasets/ORS4199_train16000_list.txt
+
+TRAIN:
+  split: train  # split in [train and test]
+  # The block size must evenly divide both the width and the height.
+  block_num: 2  # The number of splits along the length and width
+  block_nod: 3 # nodes per block
+  knn: 16
+  img_h: 256 #256
+  img_w: 256 #256
+  img_dim: 32
+  cov_loop: 1
+  cov_bias: True
+
+  train_batch_size: 6 #8
+  val_batch_size: 1  # batch size for validation during training, memory and speed tradeoff
+  epoch_num: 100
+
+  scale_min: 0.5  # minimum random scale
+  scale_max: 2.0  # maximum random scale
+  rotate_min: -90 #-10  # minimum random rotate
+  rotate_max: 90 #10  # maximum random rotate
+  ignore_label: 0 # 255
+  zoom_factor: 8  # zoom factor for final prediction during training, be in [1, 2, 4, 8]
+
+  workers: 16  # data loader workers
+
+  model_path: ./modelPTH/
+
+
+TEST:
+  test_list: F:/WORKs_SDU/datasets/ORSSD-TE_list.txt
+#  test_list: F:/WORKs_SDU/datasets/EORSSD-TE_list.txt
+#  test_list: F:/WORKs_SDU/datasets/ORS-4199-TE_list.txt
+
+
+  split: test  # split in [train and test]
+  base_size: 256  # based size for scaling
+  scales: [1.0]  # evaluation scales, ms as [0.5, 0.75, 1.0, 1.25, 1.5, 1.75]
+  test_batch_size: 1
+  has_prediction: False  # has prediction already or not
+  index_start: 0  # evaluation start index in list
+  index_step: 0  # evaluation step index in list, 0 means to end
+  gpu: [0]
+#  model_path:  model_file/mgl_r.pth
+  results_folder: ./results/ORSSD-TE/  # results save folder
+#  results_folder: ./results/EORSSD-TE/  # results save folder
+#  results_folder: ./results/ORS-4199-TE/  # results save folder
+
