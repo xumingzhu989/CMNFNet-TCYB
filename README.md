@@ -10,7 +10,7 @@ Mingzhu Xu, Sen Wang, Yupeng Hu, Haoyu Tang, Runmin Cong, Liqiang Nie, IEEE Tran
 
 ## Introduction
 
-This repository is the official implementation of our TGRS 2025 paper: [Cross-Model Nested Fusion Network for Salient Object Detection in Optical Remote Sensing Images](https://ieeexplore.ieee.org/document/11163514)
+This repository is the official implementation of our TCYB 2025 paper: [Cross-Model Nested Fusion Network for Salient Object Detection in Optical Remote Sensing Images](https://ieeexplore.ieee.org/document/11163514)
 
 In this paper, we propose a novel Cross-Model Nested Fusion Network (CMNFNet), which leverages heterogeneous features to increase the performance of salient object detection in optical remote sensing images (ORSI-SOD). Specifically, CMNFNet comprises two heterogeneous encoders: a conventional CNN-based encoder that can model local pattern features, and a specially designed graph convolutional network (GCN)-based encoder with local and global receptive fields that can model local and global features simultaneously. To effectively differentiate between multiple salient objects of different sizes or complex topological structures within an image, we project the image into two different graphs with different receptive fields and conduct message passing through two parallel graph convolutions. Finally, the heterogeneous features extracted from the two encoders are fused in the well-designed Attention Enhanced Cross Model Nested Fusion Module (AECMNFM). This module is meticulously crafted to integrate features progressively, allowing the model to adaptively eliminate background interference while simultaneously refining the feature representations. Comprehensive experimental analyses on benchmark datasets (ORSSD, EORSSD, and ORSI-4199) demonstrate the superiority of our CMNFNet over 16 state-of-the-art (SOTA) models. The contributions of this paper are as follows:
 
@@ -49,9 +49,7 @@ python mainNest.py
 
 ## Saliency maps
 
-We provide saliency maps of our ACCoNet (VGG_backbone and ResNet_backbone on ORSSD, EORSSD, and additional ORSI-4199 datasets.
-
-Link： https://pan.baidu.com/s/1DQGp3JMOfYJFPyPMcp8pmQ （password：97ds）
+We provide saliency maps of our CMNFNet（VGG_backbone and ResNet_backbone）on ORSSD, EORSSD, and additional ORSI-4199 datasets.
 
 ## Citation
 
