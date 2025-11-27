@@ -49,7 +49,9 @@ pip install -r requirements.txt
 ## Training
 
 ```
-python mainNest.py
+python mainNest_resnet.py
+
+python mainNest_vgg.py
 ```
 
 ## Saliency maps
