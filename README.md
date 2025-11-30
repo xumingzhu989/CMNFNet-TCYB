@@ -28,7 +28,7 @@ The code has been verified to work with PyTorch v2.0.0 + CUDA 11.8 and Python 3.
 ### Pretrained weight
 
 Please download the pretrained weights of resnet and vgg and place them in the specified directory: ./pretrained
-Link:
+Link:https://pan.baidu.com/s/1FFHeZ7lqsEzUtzD0VSVU5g?pwd=7kgq PW：7kgq
 
 ### Package Dependencies
 
